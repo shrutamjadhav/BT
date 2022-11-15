@@ -1,0 +1,46 @@
+
+Title: Write a program in solidity to create Student data. Use the following constructs:
+ Structures
+ Arrays
+ Fallback
+Deploy this as smart contract on Ethereum and Observe the transaction fee and Gas value.
+Objective: Understand and explore the working of Blockchain technology and its applications.
+Course Outcome:
+CO6:Interpret the basic concepts in Blockchain technology and its application.
+Description:
+Step 1: Open Remix IDE on any of your browsers, select on the New File and click on Solidity to 
+choose the environment.
+Step 2: Write the Student Management code in the code section, and click the Compile
+button under the Compiler window to compile the contract.
+Step 3: To execute the code, click on the Deploy button under Deploy and Run Transactions 
+window. After deploying the code click on the drop-down on the console.
+Code
+pragma solidity ^0.6;
+contract Student_management
+{
+struct Student {
+intstud_id;
+ string name;
+ string department;
+ }
+ Student[] Students;
+ function add_stud(intstud_id,string memory name, string memory department) public{
+ Student memory stud = Student(stud_id,name,department);
+Students.push(stud);
+ }
+ function getStudent(intstud_id) public view returns(string memory, string memory){
+ for (uinti=0;i<Students.length;i++){
+ Student memory stud = Students[i];
+ if(stud.stud_id==stud_id){
+ return(stud.name,stud.department);
+ }
+ }
+ return("Not Found", "Not Found");
+ }
+}
+Sample Output 
+After deploying the contact successful you can observe two button add_stud and 
+getStudents.Give the input stud_id, name dept and click on getStudents button, enter the stud_id 
+which you have given as an Input and get the information of Students name and department 
+Refer the following output
+Conclusion: Hence,wehave studieda program in solidity to create Student data

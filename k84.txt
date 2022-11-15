@@ -1,0 +1,25 @@
+Title: Installation of MetaMask and study spending Ether per transaction
+Objective: To understand and explore the working of Blockchain Technology and its 
+applications.
+Course Outcome:
+CO6: Interpret the basic concepts in Blockchain technology and its applications.
+Description:
+MetaMask is available as an in-browser application for desktop or laptop computers, as
+well as a smartphone app available on both major app stores. What makes it so popular is it 
+seamless integration with many different major crypto websites, including NFT marketplace 
+Open Sea, and decentralized exchanges including 1inch, Uniswap, and Quickswap.
+MetaMask also works with hardware cryptocurrency wallets ledger and Trezor, allowing 
+users to transfer crypto and NFTs from the software-based hot wallet to the hardware based cold
+wallets for secure storage.
+It is easy to use MetaMask on a connected website to send, receive, or trade tokens. 
+Before exchanging any tokens, MetaMask will pop up in your browser to confirm the details, 
+including the contracts, price.Before confirming the transaction, user will be able to adjust their 
+gas limits to either pay more to speed it up, or reduce their max price while showing down the 
+confirmation.
+Steps to create MetaMask.
+Step 1: Go to Chrome Web Store Extensions Section. Search MetaMask.
+Step 2: Download the METAMASK .Click on the button “Add to Chrome”.
+Step 3: MetaMask wallet installation. Click on the MetaMask extension and click on “Get 
+Started”.
+Step 4: Click on “I Agree.”
+Conclusion: Hence,wehavestudiedthe installation of : Hence,wehavestudiedthe installation of MetaMask

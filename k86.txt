@@ -1,0 +1,121 @@
+Title: Write a smart contract on a test network for Bank account of a customer for following 
+operations.
+ Deposit Money
+ Withdraw Money
+ Show Balance
+Objective: Understand and explore the working of Blockchain technology and its applications.
+Course Outcome:
+CO6:Interpret the basic concepts in Blockchain technology and its application.
+Description:
+First of all, we need to understand the differences between a paper contract and a smart 
+contract and the reason why smart contracts become increasingly popular and important in recent 
+years. A contract, by definition, is a written or spoken (mostly written) law-enforced agreement 
+containing the rights and duties of the parties. Because most of business contracts are 
+complicated and tricky, the parties need to hire professional agents or lawyers for protecting their 
+own rights. However, if we hire those professionals every time we sign contracts, it is going to 
+be extremely costly and inefficient. Smart contracts perfectly solve this by working on ‘If-Then’ 
+principle and also as escrow services. All participants need to put their money, ownership right 
+or other tradable assets into smart contracts before any successful transaction. As long as all 
+participating parties meet the requirement, smart contracts will simultaneously distribute stored 
+assets to recipients and the distribution process will be witnessed and verified by the nodes on 
+Ethereum network. 
+There are a couple of languages we can use to program smart contract. Solidity, an 
+object-oriented and high-level language, is by far the most famous and well maintained one. We 
+can use Solidity to create various smart contracts which can be used in different scenarios, 
+including voting, blind auctions and safe remote purchase. In this lab, we will discuss the 
+semantics and syntax of Solidity with specific explanation, examples and practices.
+After deciding the coding language, we need to pick an appropriate compiler. Among 
+various compilers like Visual Code Studio, we will use Remix IDE in this and following labs 
+because it can be directly accessed from browser where we can test, debug and deploy smart 
+contracts without any installation.
+Steps to Execute Solidity Smart Contract using Remix IDE
+Remix IDE is generally used to compile and run Solidity smart contracts. Below are the steps for 
+the compilation, execution, and debugging of the smart contract.
+Step 1: Open Remix IDE on any of your browsers, select on the New File and click on Solidity to 
+choose the environment.
+Step 2: Write the Smart contract in the code section, and click the Compile button under the 
+Compiler window to compile the contract.
+Step 3: To execute the code, click on the Deploy button under Deploy and Run Transactions 
+window. After deploying the code click on the drop-down on the console.
+Code
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.6;
+contract banking
+{
+ mapping(address=>uint) public user_account;
+ mapping(address=>bool) public user_exists;
+ function create_account() public payable returns(string memory)
+ {
+ require(user_exists[msg.sender]==false,'Account already created');
+ if(msg.value==0)
+ {
+user_account[msg.sender]=0;
+user_exists[msg.sender]=true;
+ return "Account created";
+ }
+ require(user_exists[msg.sender]==false,"Account already created");
+user_account[msg.sender]=msg.value;
+user_exists[msg.sender]=true;
+ return "Account created";
+ }
+ function deposit() public payable returns(string memory)
+ {
+ require(user_exists[msg.sender]==true,"Account not created");
+ require(msg.value>0,"Value for deposit is Zero");
+user_account[msg.sender]=user_account[msg.sender]+msg.value;
+ return "Deposited Successfully";
+ }
+ function withdraw(uint amount) public payable returns(string memory)
+ {
+ require(user_account[msg.sender]>amount,"Insufficient Balance");
+ require(user_exists[msg.sender]==true,"Account not created");
+ require(amount>0,"Amount should be more than zero");
+user_account[msg.sender]=user_account[msg.sender]-amount;
+msg.sender.transfer(amount);
+ return "Withdrawl Successful";
+ }
+ function transfer(address payable userAddress, uint amount) public returns(string memory)
+ {
+ require(user_account[msg.sender]>amount,"Insufficient balance in Bank account");
+ require(user_exists[msg.sender]==true,"Account is not created");
+ require(user_exists[userAddress]==true,"Transfer account does not exist");
+ require(amount>0,"Amount should be more than zero");
+user_account[msg.sender]=user_account[msg.sender]-amount;
+user_account[userAddress]=user_account[userAddress]+amount;
+ return "Transfer Successful";
+ }
+ function send_amt(address payable toAddress, uint256 amount) public payable returns(string 
+memory)
+ {
+ require(user_account[msg.sender]>amount,"Insufficeint balance in Bank account");
+ require(user_exists[msg.sender]==true,"Account is not created");
+ require(amount>0,"Amount should be more than zero");
+user_account[msg.sender]=user_account[msg.sender]-amount;
+toAddress.transfer(amount);
+ return "Transfer Success";
+ }
+ function user_balance() public view returns(uint)
+ {
+ return user_account[msg.sender];
+ }
+ function account_exist() public view returns(bool)
+ {
+ return user_exists[msg.sender];
+ }
+}
+Sample Output
+After deploying the contact successful you can observe following buttonscreate_account, 
+deposit, send_amt, transfer, account_exist, user_account, user_balance and user_exists.
+Refer the following output
+ Create account
+ Deposit Amount
+ Check Account Exists
+ Check User Account Exists
+ Check User Balance
+ Check User Exists
+ Send Amount
+ Check User Account Balance
+ Transfer Amount and Check User Account Balance
+ Withdraw Amount and Check User Account Balance
+Conclusion: Hence,wehave studied a smart contract on a test network for Bank account of a 
+customer

@@ -1,0 +1,94 @@
+Title: Create your own wallet using MetaMask for crypto transactions.
+Objective: Understand and explore the working of Blockchain technology and its applications.
+Course Outcome:
+CO6:Interpret the basic concepts in Blockchain technology and its application.
+Description:
+MetaMask is a cryptocurrency wallet used to interact with the Ethereum Blockchain. It 
+can be accessed through an app or through a browser extension.MetaMask is a popular 
+cryptocurrency wallet known for its ease of use, availability on both desktops and mobile 
+devices, the ability to buy, send, and receive cryptocurrency from within the wallet, and collect 
+non-fungible tokens (NFTs) across two block chains. While experienced crypto users will 
+appreciate the simplicity and fast transactions, those new in the space are at a higher risk of 
+losing their tokens from lost secret phrases, malicious websites, and other cryptocurrency scams
+Similarly, you’ll need a crypto wallet to transact with a Blockchain.
+A wallet is your personal key to interact with the cryptographic world. It powers you to buy, sell 
+or transfer assets on the Blockchain.
+And MetaMask is a wallet for the most diverse Blockchain in existence–Ethereum. It’s your 
+gateway to its DeFi ecosystem, non-fungible tokens (NFTs), ERC-20 tokens, and practically–
+everything Ethereum.
+It’s available as an app for iOS and Android. In addition, you can use this as an extension with a 
+few web browsers: Chrome, Firefox, Brave, and Edge.
+Let’s take a look at some of the prominent features of this wallet:
+Ease of use
+Starting with MetaMask is easy, quick, and anonymous. You don’t even need an email 
+address. Just set up a password and remember (and store) the secret recovery phrase, and you’re 
+done.
+Security
+Your information is encrypted in your browser that nobody has access to. In the event of 
+a lost password, you have the 12-word secret recovery phase (also called a seed phrase) for 
+recovery. Notably, it’s essential to keep the seed phrase safe, as even MetaMask has no 
+information about it. Once lost, it can’t be retrieved.
+Built-In Crypto Store
+If you’re wondering, no, you can’t buy Bitcoin with MetaMask. It only supports Ether 
+and other Ether-related tokens, including the famous ERC-20 tokens. Cryptocurrencies 
+(excluding Ether) on Ethereum are built as ERC-20 tokens.
+Backup and Restore
+MetaMask stores your information locally. So, in case you switch browsers or machines, 
+you can restore your MetaMask wallet with your secret recovery phrase.
+Community Support
+As of August 2021, MetaMask was home to 10 million monthly active users around the 
+world. It’s simple and intuitive user interface keeps pushing these numbers with a recorded 
+1800% increase from July 2020.
+Conclusively, try MetaMask if hot wallets are your pick. Let’s begin with the installation 
+before moving to its use cases. Further sections entail the illustration for Chrome web browser 
+and Android mobile platform.
+Step 1: Click on the “Create a wallet”.
+Step 2: Create a password for your wallet. This password is to be entered every time the 
+browser is launched and wants to use MetaMask. A new password needs to be created if 
+chrome is uninstalled or if there is a switching of browsers. In that case, go through the Import
+Wallet button. This is because MetaMask stores the keys in the browser. Agree to Terms of
+Use.
+Step 3:Click on the dark area which says
+phrase.
+Step 4: This is the most important step. Back up your secret phrase properly. Do not store your 
+secret phrase on your computer. Please read everything on this screen until you understand it 
+completely before proceeding. The secret phrase is the only way to acces
+forget your password. Once done click the
+Step 5:
+Securely store the seed phrase for your wallet
+Click on “Click here to reveal secret words” to show the seed phrase.
+MetaMask requires that you store your seed phrase in 
+your funds should your device crash or your browser reset. We recommend you write it down. 
+The most common method is to write your 12
+in a place where only you have access.
+you recover your wallet and your funds will be lost forever.
+Never share your seed phrase or your private key to anyone or any site, unless you want them to 
+have full control over your funds.
+Click on the dark area which says Click here to reveal secret words to get your secret 
+: This is the most important step. Back up your secret phrase properly. Do not store your 
+secret phrase on your computer. Please read everything on this screen until you understand it 
+completely before proceeding. The secret phrase is the only way to access your wallet if you 
+forget your password. Once done click the Next button.
+Securely store the seed phrase for your wallet
+Click on “Click here to reveal secret words” to show the seed phrase.
+MetaMask requires that you store your seed phrase in a safe place. It is the only way to recover 
+your funds should your device crash or your browser reset. We recommend you write it down. 
+The most common method is to write your 12-word phrase on a piece of paper and store it safely 
+have access. Note: if you lose your seed phrase, MetaMask can’t help 
+you recover your wallet and your funds will be lost forever.
+Never share your seed phrase or your private key to anyone or any site, unless you want them to 
+nds.
+to get your secret 
+: This is the most important step. Back up your secret phrase properly. Do not store your 
+secret phrase on your computer. Please read everything on this screen until you understand it 
+s your wallet if you 
+Securely store the seed phrase for your wallet
+a safe place. It is the only way to recover 
+your funds should your device crash or your browser reset. We recommend you write it down. 
+word phrase on a piece of paper and store it safely 
+Note: if you lose your seed phrase, MetaMask can’t help 
+Never share your seed phrase or your private key to anyone or any site, unless you want them to 
+Step 6: Click the Confirm button. Please follow the tips mentioned.
+Step 7: One can see the balance and copy the address of the account by clicking on 
+the Account 1 area.
+Conclusion: Hence,wehavestudiedto create a wallet using MetaMask.

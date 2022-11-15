@@ -1,0 +1,43 @@
+Title: Write a survey report on types of Blockchains and its real time use cases.
+Objective: Understand and the types of Blockchain technology and its real time applications.
+Course Outcome:
+CO6:Interpret the basic concepts in Blockchain technology and its application.
+Description:
+A blockchain is a digital ledger of all cryptocurrency transactions. It is constantly growing as 
+"completed" blocks are added to it with a new set of recordings. Each block contains a 
+cryptographic hash of the previous block, a timestamp, and transaction data. Bitcoin nodes use 
+the block chain to differentiate legitimate Bitcoin transactions from attempts to re-spend coins 
+that have already been spent elsewhere. 
+Types of Blockchain 
+There are three types of blockchains- public, private and consortium. 
+1. Public Blockchain: A public blockchain has absolutely no access restrictions. Anyone 
+with an internet connection can send transactions to it as well as become a validator (i.e. 
+participate in the consensus process). Bitcoin is the best example of a public blockchain. 
+2. Private Blockchain: A private blockchain is a little more centralized. Here, a central 
+authority controls who can access the network and who can become a validator. 
+Validators on a private blockchain are typically vetted by the central authority. 
+Permissioned blockchains are often used in enterprise settings where centralized control 
+is necessary. An example of a private blockchain is Hyperledger Fabric. 
+3. Consortium Blockchain: A consortium blockchain is a hybrid of the public and private 
+blockchain. Here, a group of companies or organizations control who can access the 
+network and who can become a validator. The selection of validators is typically done 
+through a voting process. Consortium blockchains are often used in cases where multiple 
+parties need to collaborate but no party is fully trusted. An example of a consortium 
+blockchain is the R3 Corda platform. 
+Real-Time Use Cases of Blockchain
+1. Supply Chain Management Blockchain can be used to create an immutable record of all 
+the transactions in a supply chain. This can help to increase transparency and traceability 
+in the supply chain. 
+2. Identity Management Blockchain can be used to create a digital identity for individuals, 
+organizations, and devices. This can be used for KYC (know your customer) and AML 
+(anti-money laundering) compliance. 
+3. Payments Blockchain can be used to process payments. This can be done using 
+cryptocurrencies or fiat currencies. 
+4. Data Management Blockchain can be used to store data in a tamper-proof and 
+decentralized manner. This can be used for data sharing and data security. 
+5. IoT Blockchain can be used to create a decentralized network of IoT devices. This can be
+used for data sharing and data security. 
+6. Predictive Analytics Blockchain can be used to create a decentralized network of 
+predictive analytics models. This can be used for data sharing and data security.
+Conclusion: Hence,wehave studiedto write a survey report on types of Blockchains and its real 
+time use cases
